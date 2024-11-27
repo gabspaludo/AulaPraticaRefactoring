@@ -46,7 +46,7 @@ public class Customer {
       }
       return result;
    }
-
+   
    private int getTotalFrequentRenterPoints() {
       int result = 0;
       Enumeration rentals = _rentals.elements();
