@@ -30,6 +30,10 @@ public class Customer {
       return result; 
    }
 
+   public String htmlStatement() {
+      return new HtmlStatement().value(this);
+   }
+
    public int getTotalFrequentRenterPoints() {
       int result = 0;
       Enumeration rentals = _rentals.elements();
