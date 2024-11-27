@@ -36,8 +36,8 @@ public class Customer {
 
         //show figures for this rental
         result += "\t" + aRental.getMovie().getTitle()+ "\t" +
-            String.valueOf(thisAmount) + "\n";
-        totalAmount += thisAmount;
+            String.valueOf(each.getCharge()) + "\n";
+        totalAmount += each.getCharge();
 
      }
      //add footer lines
@@ -46,5 +46,5 @@ public class Customer {
              " frequent renter points";
      return result;
    }
-   
+
 }
