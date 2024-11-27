@@ -1,3 +1,4 @@
+package models;
 public class Movie {
 
     public static final int  CHILDRENS = 2;
@@ -23,4 +24,5 @@ public class Movie {
     public String getTitle (){
         return _title;
     }
-  }
+    
+}
